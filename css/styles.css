@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  .gallery {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin: 24px auto;
+  }
+  
+  .gallery-item {
+    list-style: none;
+  }
+  
+  .gallery-image {
+    display: block;
+    width: 360px;
+    height: 200px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .gallery-image:hover {
+    border: 2px solid blue;
+    transform: scale(1.04);
+  }
+  
+  .modal-img {
+    max-width: 1112px;
+    max-height: 640px;
+  }
